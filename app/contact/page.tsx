@@ -7,9 +7,9 @@ import { Phone, Mail, Globe } from "lucide-react"
 import { LinkedinIcon, FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/social-icons"
 
 export const metadata: Metadata = {
-  title: "Contact | AvenBrik Infra",
+  title: "Contact | AvenBrick Infra",
   description:
-    "Get in touch with AvenBrik Infra for construction, infrastructure and project enquiries. Call, email or send us a message.",
+    "Get in touch with AvenBrick Infra for construction, infrastructure and project enquiries. Call, email or send us a message.",
 }
 
 const details = [

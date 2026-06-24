@@ -13,7 +13,7 @@ const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about' },
   { label: 'Services', href: '/services', hasMega: true },
-  { label: 'Why AvenBrik', href: '/why-avenbrik' },
+  { label: 'Why AvenBrick', href: '/why-avenbrick' },
   { label: 'Finance', href: '/finance' },
   { label: 'Clients & Projects', href: '/projects' },
   { label: 'Work With Us', href: '/careers' },

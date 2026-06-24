@@ -6,7 +6,7 @@ import { services, contactInfo, socialLinks } from '@/lib/site-data'
 
 const companyLinks = [
   { label: 'About Us', href: '/about' },
-  { label: 'Why AvenBrik', href: '/why-avenbrik' },
+  { label: 'Why AvenBrick', href: '/why-avenbrick' },
   { label: 'Clients & Projects', href: '/projects' },
   { label: 'Finance', href: '/finance' },
   { label: 'Work With Us', href: '/careers' },
@@ -21,7 +21,7 @@ export function SiteFooter() {
           <div>
             <Logo variant="dark" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-primary-foreground/70">
-              AvenBrik Infra is a multi-domain construction execution company
+              AvenBrick Infra is a multi-domain construction execution company
               specializing in turnkey site works — delivering reliable, scalable
               services for builders, developers, contractors, and government agencies.
             </p>
@@ -106,7 +106,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-sm text-primary-foreground/60 md:flex-row">
-          <p>© {new Date().getFullYear()} AvenBrik Infra. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} AvenBrick Infra. All rights reserved.</p>
           <p>Building Excellence with Every Brick.</p>
         </div>
       </div>

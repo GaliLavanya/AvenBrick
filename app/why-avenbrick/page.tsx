@@ -7,9 +7,9 @@ import { whyChooseUs } from "@/lib/site-data"
 import { ShieldCheck, Clock, Wallet, Users, Leaf, Award } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Why AvenBrik | The AvenBrik Advantage",
+  title: "Why AvenBrick | The AvenBrick Advantage",
   description:
-    "Discover why developers, businesses and homeowners trust AvenBrik Infra for end-to-end construction and infrastructure delivery.",
+    "Discover why developers, businesses and homeowners trust AvenBrick Infra for end-to-end construction and infrastructure delivery.",
 }
 
 const iconMap = {
@@ -21,11 +21,11 @@ const iconMap = {
   Award,
 }
 
-export default function WhyAvenBrikPage() {
+export default function WhyAvenBrickPage() {
   return (
     <>
       <PageHero
-        eyebrow="Why AvenBrik"
+        eyebrow="Why AvenBrick"
         title="Built on trust. Delivered with precision."
         description="We combine engineering excellence, transparent processes and on-time delivery to turn ambitious visions into landmark structures."
       />
@@ -57,7 +57,7 @@ export default function WhyAvenBrikPage() {
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
                 src="/about-team.png"
-                alt="AvenBrik engineering team reviewing project plans on site"
+                alt="AvenBrick engineering team reviewing project plans on site"
                 fill
                 className="object-cover"
               />
@@ -70,7 +70,7 @@ export default function WhyAvenBrikPage() {
                 A single accountable partner from concept to completion
               </h2>
               <p className="mb-6 leading-relaxed text-muted-foreground">
-                Most projects fail at the handoffs between architects, contractors and consultants. AvenBrik removes
+                Most projects fail at the handoffs between architects, contractors and consultants. AvenBrick removes
                 those gaps by owning the entire delivery chain &mdash; design, engineering, procurement and
                 construction &mdash; under one roof.
               </p>

@@ -13,7 +13,7 @@ export function WhatWeDo() {
             Upgrading Your Infrastructure Efficiency
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-pretty text-lg leading-relaxed text-primary-foreground/75">
-            At AvenBrik Infra, we don’t just build — we elevate. Our expert-led
+            At AvenBrick Infra, we don’t just build — we elevate. Our expert-led
             services are designed to optimize every layer of your construction,
             infrastructure, and industrial needs with smart planning, high-quality
             workmanship, and tech-enabled execution. Whether it&apos;s a factory

@@ -6,9 +6,9 @@ import { CareerForm } from "@/components/career-form"
 import { HeartHandshake, TrendingUp, GraduationCap, ShieldCheck } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Work With Us | Careers at AvenBrik Infra",
+  title: "Work With Us | Careers at AvenBrick Infra",
   description:
-    "Join AvenBrik Infra and build a career in construction and infrastructure. Explore open roles and apply today.",
+    "Join AvenBrick Infra and build a career in construction and infrastructure. Explore open roles and apply today.",
 }
 
 const perks = [
@@ -32,7 +32,7 @@ export default function CareersPage() {
     <>
       <PageHero
         eyebrow="Work With Us"
-        title="Build your career with AvenBrik"
+        title="Build your career with AvenBrick"
         description="We are always looking for driven professionals who want to shape skylines and deliver infrastructure that lasts."
       />
 

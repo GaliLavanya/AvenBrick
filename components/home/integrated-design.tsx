@@ -10,7 +10,7 @@ import { Reveal } from '@/components/reveal'
 const faqs = [
   {
     q: 'What Are The Charges Of Renovation?',
-    a: 'Renovation costs vary depending on scope, materials, structural changes, and finishes. At AvenBrik, we offer transparent pricing models with itemized quotations tailored to your project.',
+    a: 'Renovation costs vary depending on scope, materials, structural changes, and finishes. At AvenBrick, we offer transparent pricing models with itemized quotations tailored to your project.',
   },
   {
     q: 'What Is Project Timing In Construction?',
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: 'How To Contact Our Support Team?',
-    a: 'You can reach AvenBrik’s expert support team via phone at +91 8333 85 87 85, email at contact@avenbrik.com, or our website www.avenbrik.com. We’re here to assist you at every step — from consultation to site execution.',
+    a: 'You can reach AvenBrick’s expert support team via phone at +91 8333 85 87 85, email at contact@avenbrick.com, or our website www.avenbrick.com. We’re here to assist you at every step — from consultation to site execution.',
   },
   {
     q: 'How Are Construction Permits Obtained?',
@@ -43,7 +43,7 @@ export function IntegratedDesign() {
             <div className="mt-6 space-y-5 text-pretty leading-relaxed text-muted-foreground">
               <p className="flex gap-3">
                 <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-accent" />
-                At AvenBrik Infra, we integrate design and execution to deliver
+                At AvenBrick Infra, we integrate design and execution to deliver
                 seamless, cost-efficient construction solutions. From initial planning
                 to final handover, our approach ensures every phase contributes to
                 operational excellence and sustainable outcomes.

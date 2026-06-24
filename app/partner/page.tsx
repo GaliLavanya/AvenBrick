@@ -6,16 +6,16 @@ import { PartnerForm } from "@/components/partner-form"
 import { Handshake, Briefcase, Hammer, Building2 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Become a Partner | AvenBrik Infra",
+  title: "Become a Partner | AvenBrick Infra",
   description:
-    "Partner with AvenBrik Infra as a vendor, subcontractor, supplier or channel partner and grow with a trusted construction brand.",
+    "Partner with AvenBrick Infra as a vendor, subcontractor, supplier or channel partner and grow with a trusted construction brand.",
 }
 
 const partnerTypes = [
   { icon: Hammer, title: "Subcontractors", text: "Skilled trade teams for electrical, plumbing, finishing and more." },
   { icon: Briefcase, title: "Material Suppliers", text: "Reliable suppliers of quality construction materials and equipment." },
   { icon: Building2, title: "Developers", text: "Real estate developers seeking an end-to-end construction partner." },
-  { icon: Handshake, title: "Channel Partners", text: "Referral and business partners who bring projects to AvenBrik." },
+  { icon: Handshake, title: "Channel Partners", text: "Referral and business partners who bring projects to AvenBrick." },
 ]
 
 const benefits = [
@@ -30,7 +30,7 @@ export default function PartnerPage() {
     <>
       <PageHero
         eyebrow="Become a Partner"
-        title="Grow with AvenBrik Infra"
+        title="Grow with AvenBrick Infra"
         description="Join our network of vendors, subcontractors, suppliers and channel partners to deliver exceptional projects together."
       />
 

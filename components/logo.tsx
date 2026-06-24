@@ -12,20 +12,20 @@ export function Logo({
     <Link
       href="/"
       className={cn('group inline-flex items-center gap-2.5', className)}
-      aria-label="AvenBrik Infra home"
+      aria-label="AvenBrick Infra home"
     >
       {/* Logo Mark (Orange AB Icon) */}
       <img
         src="/logo-mark.png"
-        alt="AvenBrik Mark"
+        alt="AvenBrick Mark"
         width={36}
         height={36}
         className="h-9 w-auto shrink-0 transition-transform duration-300 group-hover:scale-105"
       />
-      {/* Logo Text (AVENBRIK) */}
+      {/* Logo Text (AVENBRICK) */}
       <img
         src="/logo-text.png"
-        alt="AvenBrik Infra"
+        alt="AvenBrick Infra"
         width={182}
         height={22}
         className={cn(

@@ -168,8 +168,8 @@ export const services: Service[] = [
 export const contactInfo = {
   phone: '+91 8333 85 87 85',
   phoneHref: '+918333858785',
-  email: 'contact@avenbrik.com',
-  website: 'www.avenbrik.com',
+  email: 'contact@avenbrick.com',
+  website: 'www.avenbrick.com',
   financeDesk: '+91 9876543210',
 }
 

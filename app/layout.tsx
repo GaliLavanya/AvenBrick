@@ -12,9 +12,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'AvenBrik Infra — Building Excellence with Every Brick',
+  title: 'AvenBrick Infra — Building Excellence with Every Brick',
   description:
-    'AvenBrik Infra is a multi-domain construction execution company specializing in electrical, plumbing, painting, metalworks, flooring, excavation, site development, and turnkey project execution across India.',
+    'AvenBrick Infra is a multi-domain construction execution company specializing in electrical, plumbing, painting, metalworks, flooring, excavation, site development, and turnkey project execution across India.',
   generator: 'v0.app',
   keywords: [
     'construction',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'plumbing',
     'site development',
     'project execution',
-    'AvenBrik',
+    'AvenBrick',
   ],
 }
 

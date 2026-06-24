@@ -4,7 +4,7 @@ import { Reveal, RevealStagger, StaggerItem } from '@/components/reveal'
 const testimonials = [
   {
     quote:
-      'AvenBrik handled our entire MEP scope with zero subcontracting chaos. Single point of accountability made our delivery timeline rock solid.',
+      'AvenBrick handled our entire MEP scope with zero subcontracting chaos. Single point of accountability made our delivery timeline rock solid.',
     name: 'Rajesh Menon',
     role: 'Project Director, Skyline Developers',
   },

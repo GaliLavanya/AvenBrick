@@ -5,9 +5,9 @@ import { Reveal } from "@/components/reveal"
 import { CtaSection } from "@/components/cta-section"
 
 export const metadata: Metadata = {
-  title: "Clients & Projects | AvenBrik Infra",
+  title: "Clients & Projects | AvenBrick Infra",
   description:
-    "Explore the residential, commercial and industrial projects delivered by AvenBrik Infra and the clients who trust us.",
+    "Explore the residential, commercial and industrial projects delivered by AvenBrick Infra and the clients who trust us.",
 }
 
 const sectors = [

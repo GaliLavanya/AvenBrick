@@ -5,7 +5,7 @@ import { Reveal } from '@/components/reveal'
 
 export function CtaSection({
   title = "Let's Build the Future, Together.",
-  subtitle = 'Whether it’s a standalone project or multi-phase development, AvenBrik Infra is your dependable partner on the ground — ensuring work gets done, faster and better.',
+  subtitle = 'Whether it’s a standalone project or multi-phase development, AvenBrick Infra is your dependable partner on the ground — ensuring work gets done, faster and better.',
   primaryLabel = 'Start Your Project',
   primaryHref = '/contact',
   secondaryLabel = 'Explore Services',

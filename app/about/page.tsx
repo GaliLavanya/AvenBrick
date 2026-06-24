@@ -5,9 +5,9 @@ import { Reveal, RevealStagger, StaggerItem } from '@/components/reveal'
 import { CtaSection } from '@/components/cta-section'
 
 export const metadata: Metadata = {
-  title: 'About Us — AvenBrik Infra',
+  title: 'About Us — AvenBrick Infra',
   description:
-    'AvenBrik Infra is a multi-domain construction execution company specializing in turnkey site works with a skilled workforce and tech-driven approach.',
+    'AvenBrick Infra is a multi-domain construction execution company specializing in turnkey site works with a skilled workforce and tech-driven approach.',
 }
 
 const timeline = [
@@ -23,7 +23,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About Us"
         title="Who We Are"
-        description="AvenBrik Infra is a multi-domain construction execution company specializing in turnkey site works."
+        description="AvenBrick Infra is a multi-domain construction execution company specializing in turnkey site works."
       />
 
       <section className="bg-background py-20 lg:py-28">
@@ -32,7 +32,7 @@ export default function AboutPage() {
             <div className="overflow-hidden rounded-2xl border border-border">
               <img
                 src="/about-team.png"
-                alt="AvenBrik engineers reviewing blueprints on site"
+                alt="AvenBrick engineers reviewing blueprints on site"
                 className="h-full w-full object-cover"
               />
             </div>

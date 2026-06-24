@@ -9,9 +9,9 @@ import Link from "next/link"
 import { Banknote, FileCheck, Percent, CalendarClock, Building, Phone } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Construction Finance | AvenBrik Infra",
+  title: "Construction Finance | AvenBrick Infra",
   description:
-    "Flexible construction finance and EMI options from AvenBrik Infra. Build now and pay in easy installments with transparent, structured plans.",
+    "Flexible construction finance and EMI options from AvenBrick Infra. Build now and pay in easy installments with transparent, structured plans.",
 }
 
 const features = [
@@ -50,7 +50,7 @@ export default function FinancePage() {
       <PageHero
         eyebrow="Construction Finance"
         title="Build now, pay in easy installments"
-        description="AvenBrik Infra makes construction affordable with flexible finance and EMI options so budget never stands between you and your dream project."
+        description="AvenBrick Infra makes construction affordable with flexible finance and EMI options so budget never stands between you and your dream project."
       />
 
       <section className="py-20 md:py-28">

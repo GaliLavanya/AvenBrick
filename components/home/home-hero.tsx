@@ -57,7 +57,7 @@ export function HomeHero() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-white/80 md:text-xl"
         >
-          AvenBrik Infra is your trusted partner for high-quality construction
+          AvenBrick Infra is your trusted partner for high-quality construction
           services—from electrical and plumbing to full-scale project execution.
           Explore how we bring your vision to life.
         </motion.p>

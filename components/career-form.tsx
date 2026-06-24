@@ -67,7 +67,7 @@ export function CareerForm() {
         <CheckCircle2 className="h-12 w-12 text-accent animate-bounce" />
         <h3 className="text-xl font-semibold text-foreground">Application received</h3>
         <p className="max-w-md text-muted-foreground">
-          Thank you for your interest in AvenBrik. Our HR team will review your details and reach out shortly.
+          Thank you for your interest in AvenBrick. Our HR team will review your details and reach out shortly.
         </p>
         <p className="text-xs text-muted-foreground/60 mt-2">
           Form will reset automatically in 5 seconds...

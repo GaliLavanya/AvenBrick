@@ -68,7 +68,7 @@ export function PartnerForm() {
         <CheckCircle2 className="h-12 w-12 text-accent animate-bounce" />
         <h3 className="text-xl font-semibold text-foreground">Request submitted</h3>
         <p className="max-w-md text-muted-foreground">
-          Thanks for your interest in partnering with AvenBrik. Our team will review and connect with you soon.
+          Thanks for your interest in partnering with AvenBrick. Our team will review and connect with you soon.
         </p>
         <p className="text-xs text-muted-foreground/60 mt-2">
           Form will reset automatically in 5 seconds...

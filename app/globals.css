@@ -134,9 +134,13 @@
   }
   body {
     @apply bg-background text-foreground;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
   html {
     @apply font-sans;
     scroll-behavior: smooth;
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 }

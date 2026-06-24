@@ -7,7 +7,7 @@ import { Reveal, RevealStagger, StaggerItem } from '@/components/reveal'
 import { CtaSection } from '@/components/cta-section'
 
 export const metadata: Metadata = {
-  title: 'Services — AvenBrik Infra',
+  title: 'Services — AvenBrick Infra',
   description:
     'Comprehensive site services for residential, commercial, and industrial projects: electrical, plumbing, painting, metalworks, flooring, excavation, site development, and project planning.',
 }

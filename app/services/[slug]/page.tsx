@@ -19,9 +19,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params
   const service = services.find((s) => s.slug === slug)
-  if (!service) return { title: 'Service — AvenBrik Infra' }
+  if (!service) return { title: 'Service — AvenBrick Infra' }
   return {
-    title: `${service.name} — AvenBrik Infra`,
+    title: `${service.name} — AvenBrick Infra`,
     description: service.overview,
   }
 }
