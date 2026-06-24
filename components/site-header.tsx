@@ -43,10 +43,10 @@ export function SiteHeader() {
     <header
       className="fixed inset-x-0 top-0 z-50 bg-white border-b border-border shadow-sm transition-all duration-300"
     >
-      <div className="w-full flex items-center justify-between gap-4 px-4 py-4 lg:px-6">
-        <Logo />
+      <div className="w-full flex items-center justify-between gap-4 px-4 py-4 xl:px-6">
+        <Logo className="shrink-0" />
 
-        <nav className="hidden items-center gap-0.5 lg:flex xl:gap-2 flex-nowrap">
+        <nav className="hidden items-center gap-0.5 xl:flex xl:gap-2 flex-nowrap">
           {navLinks.map((link) =>
             link.hasMega ? (
               <div
@@ -113,13 +113,13 @@ export function SiteHeader() {
             href="/contact"
             className={cn(
               buttonVariants({ variant: 'default' }),
-              'hidden bg-accent text-accent-foreground hover:bg-accent/90 lg:inline-flex text-xs px-2.5 h-8 xl:text-sm xl:px-4 xl:h-9'
+              'hidden bg-accent text-accent-foreground hover:bg-accent/90 xl:inline-flex text-xs px-2.5 h-8 xl:text-sm xl:px-4 xl:h-9'
             )}
           >
             Start Your Project
           </Link>
           <button
-            className="rounded-md p-2 text-foreground lg:hidden"
+            className="rounded-md p-2 text-foreground xl:hidden"
             onClick={() => setMobileOpen((v) => !v)}
             aria-label="Toggle menu"
             aria-expanded={mobileOpen}
@@ -131,7 +131,7 @@ export function SiteHeader() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="max-h-[calc(100vh-72px)] overflow-y-auto border-t border-border bg-background lg:hidden">
+        <div className="max-h-[calc(100vh-72px)] overflow-y-auto border-t border-border bg-background xl:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col px-4 py-4">
             {navLinks.map((link) => (
               <div key={link.href}>
