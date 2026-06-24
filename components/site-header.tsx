@@ -113,7 +113,7 @@ export function SiteHeader() {
             href="/contact"
             className={cn(
               buttonVariants({ variant: 'default' }),
-              'hidden bg-accent text-accent-foreground hover:bg-accent/90 xl:inline-flex text-xs px-2.5 h-8 xl:text-sm xl:px-4 xl:h-9'
+              'hidden bg-accent text-accent-foreground hover:bg-accent/90 sm:inline-flex text-xs px-2.5 h-8 xl:text-sm xl:px-4 xl:h-9'
             )}
           >
             Start Your Project
