@@ -58,7 +58,7 @@ export function SiteHeader() {
                 <Link
                   href={link.href}
                   className={cn(
-                    'flex items-center gap-1 rounded-md px-1.5 py-1 text-xs font-semibold tracking-tight transition-colors hover:text-accent whitespace-nowrap xl:px-3 xl:py-2 xl:text-sm xl:font-medium xl:tracking-normal',
+                    'flex items-center gap-1 rounded-md px-1.5 py-1 text-xs font-semibold tracking-tight transition-colors hover:text-accent whitespace-nowrap 2xl:px-3 2xl:py-2 2xl:text-sm 2xl:font-medium 2xl:tracking-normal',
                     pathname.startsWith('/services')
                       ? 'text-accent'
                       : 'text-foreground/80',
@@ -98,7 +98,7 @@ export function SiteHeader() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  'rounded-md px-1.5 py-1 text-xs font-semibold tracking-tight transition-colors hover:text-accent whitespace-nowrap xl:px-3 xl:py-2 xl:text-sm xl:font-medium xl:tracking-normal',
+                  'rounded-md px-1.5 py-1 text-xs font-semibold tracking-tight transition-colors hover:text-accent whitespace-nowrap 2xl:px-3 2xl:py-2 2xl:text-sm 2xl:font-medium 2xl:tracking-normal',
                   pathname === link.href ? 'text-accent' : 'text-foreground/80',
                 )}
               >
